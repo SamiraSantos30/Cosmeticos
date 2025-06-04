@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&family=Sigmar&display=swap");
+
+body {
+  font-family: "SUSE", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "SUSE", cursive;
+}
+
+.container h1 {
+  font-family: "SUSE", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.lista-produtos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.botao-produto {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 15px;
+  border: none;
+  background-color: #ff07bd;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  width: 600px;
+  font-family: "SUSE", sans-serif;
+}
+
+.botao-produto:hover {
+  background-color: #1905ec;
+}
+
+.tabela-produtos-selecionados input[type="number"] {
+  width: 60px;
+}

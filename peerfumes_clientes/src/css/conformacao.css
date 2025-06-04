@@ -1,0 +1,60 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url("https://img.freepik.com/fotos-gratis/flores-bonitas-em-rosa_23-2147766503.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.carrinho {
+  max-width: 500px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  backdrop-filter: blur(5px);
+}
+
+.carrinho h2 {
+  color: #ec06c1;
+  margin-bottom: 20px;
+}
+
+.carrinho label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.carrinho input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.carrinho h3 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.carrinho button {
+  background-color: #ec06c1;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.carrinho button:hover {
+  background-color: #c005a5;
+}

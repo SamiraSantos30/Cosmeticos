@@ -1,0 +1,162 @@
+.forms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.forms > div {
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e0e0e0;
+  flex: 1 1 45%; 
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.forms h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #444;
+  font-size: 20px;
+}
+
+
+
+.containerProd {
+  padding: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.tabela-produtos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  font-size: 14px;
+  color:#080808;
+}
+
+.tabela-produtos th,
+.tabela-produtos td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  background-color: #fff; 
+  vertical-align: middle;
+}
+
+.tabela-produtos th {
+  background-color: #08031f;
+  color: #faf3f3;
+}
+
+.tabela-produtos tr:nth-child(even) {
+  background-color:white;
+}
+
+.tabela-produtos tr:hover {
+  background-color: #f1f1f1;
+}
+
+.tabela-produtos img {
+  max-width: 60px;
+  border-radius: 6px;
+}
+
+.tabela-produtos button {
+  padding: 6px 10px;
+  background-color: #0c0c0c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.tabela-produtos button:hover {
+  background-color: #0e0101;
+}
+
+
+.forms > div {
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e0e0e0;
+  flex: 1 1 45%;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.forms h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #444;
+  font-size: 20px;
+}
+
+.form_prod {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form_prod input[type="text"],
+.form_prod input[type="number"],
+.form_prod select {
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.form_prod button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background 0.3s;
+}
+
+.form_prod button:hover {
+  background-color: #0056b3;
+}
+
+
+button.cadastrar {
+  background-color: #101011;
+}
+
+button.cadastrar:hover {
+  background-color:transparent;
+  color: #111111;
+}
+
+button.Atualizar {
+  background-color: #101010;
+  color: #ffffff;
+}
+
+button.Atualizar:hover {
+  background-color:transparent;
+  color: #111111;
+}
+
+.tabela-produtos {
+  display: block;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+
+
+

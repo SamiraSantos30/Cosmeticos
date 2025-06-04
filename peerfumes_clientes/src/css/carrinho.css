@@ -1,0 +1,141 @@
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 60px 40px;
+  background: url("https://img.freepik.com/vetores-premium/fundo-aquarela-rosa-choque_23-2150863312.jpg") no-repeat center center fixed;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+
+.confirmacao {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff0f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.confirmacao h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ec06c1;
+}
+
+.confirmacao table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.confirmacao th,
+.confirmacao td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.confirmacao th {
+  background-color: #ec06c1;
+  color: white;
+}
+
+.confirmacao input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.confirmacao button {
+  background-color: #ec06c1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.confirmacao button:hover {
+  background-color: #c005a5;
+}
+
+
+.confirmacao td button {
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  border-radius: 6px;
+}
+
+.confirmacao td button:hover {
+  background-color: #cc0000;
+}
+
+
+.confirmacao h3 {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+
+@media (max-width: 768px) {
+  .confirmacao {
+    padding: 10px;
+  }
+
+  .confirmacao table,
+  .confirmacao thead,
+  .confirmacao tbody,
+  .confirmacao th,
+  .confirmacao td,
+  .confirmacao tr {
+    display: block;
+  }
+
+  .confirmacao tr {
+    margin-bottom: 15px;
+  }
+
+  .confirmacao td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .confirmacao td::before {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #555;
+  }
+
+  .confirmacao td:nth-of-type(1)::before {
+    content: "Produto";
+  }
+  .confirmacao td:nth-of-type(2)::before {
+    content: "Qtd";
+  }
+  .confirmacao td:nth-of-type(3)::before {
+    content: "Preço";
+  }
+  .confirmacao td:nth-of-type(4)::before {
+    content: "Total";
+  }
+  .confirmacao td:nth-of-type(5)::before {
+    content: "Remover";
+  }
+}

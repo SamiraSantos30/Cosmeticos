@@ -1,0 +1,160 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(246, 243, 243, 0.08);
+}
+
+h1 {
+  text-align: center;
+  color: #151616;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+input[type="text"] {
+  padding: 12px 16px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px;
+  border: 1px solid #190be1;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #058afe;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #03194f;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #fff7f7;
+  border-left: 5px solid #000000;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(211, 9, 9, 0.02); 
+}
+
+
+
+li .actions {
+  display: flex;
+  gap: 10px;
+}
+
+form h2 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.bt_atulizar {
+  background-color: #0b52f8;
+}
+
+.bt_atulizar:hover {
+  background-color: #171212;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  li .actions {
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+}
+
+.tabela-categorias {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+
+}
+
+.tabela-categorias th{
+  background-color: rgb(12, 11, 11);
+   padding: 12px;
+   color: #f8f3f3;
+
+}
+.tabela-categorias td {
+  border: 1px solid #0b0b0b;
+  padding: 12px;
+  text-align: left;
+  background-color: rgb(245, 237, 237);
+  color: #080808;
+}
+
+.tabela-categorias th {
+  font-weight: bold;
+}
+
+.tabela-categorias tr:nth-child(even) {
+  background-color: rgb(28, 28, 28);
+}
+
+.tabela-categorias tr:hover {
+  background-color: #070606;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+html {
+  height: 100%;
+  overflow-y: auto;
+}

@@ -1,0 +1,75 @@
+.container-vendas {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #131212;
+}
+
+.tabela-vendas {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.tabela-vendas th{
+    background-color: #f7f5f5;
+    color: #f3f3f3;
+    padding: 10px;
+
+}
+.tabela-vendas td {
+  border: 1px solid #020202;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+  background-color: #f7f5f5;
+  color: #0d0c0c;
+}
+
+.tabela-vendas th {
+  background-color: #111111;
+  font-weight: bold;
+}
+
+.lista-produtos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-produtos li {
+  margin-bottom: 4px;
+}
+
+.tabela-vendas button {
+  padding: 6px 10px;
+  background-color: #0f0e0e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.tabela-vendas button:hover {
+  background-color:transparent;
+}
+
+.tabela-vendas tbody {
+  display: block;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.tabela-vendas thead,
+.tabela-vendas tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}

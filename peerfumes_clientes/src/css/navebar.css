@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&family=Sigmar&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sigmar", sans-serif;
+  background-color: #ef1eef; 
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 60px 40px;
+  background: url("https://img.freepik.com/vetores-premium/fundo-aquarela-rosa-choque_23-2150863312.jpg") no-repeat center center fixed;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.brand-name {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #FFD700; 
+  margin-left: 80px;
+  gap: 40px;
+  text-shadow: 3px 3px 6px rgba(62, 14, 207, 0.3);
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 120px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(243, 10, 211);
+  margin-left: 50px;
+  font-size: 1.3rem;
+  padding: 12px 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-links a:hover {
+  color: #fafafa;
+  transform: scale(1.1);
+}
+
+.link-pedido {
+  font-size: 1.4rem;
+  background: #ffcc00;
+  color: #ff0000;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.link-pedido:hover {
+  background: #ffea00;
+  transform: scale(1.1);
+}
+
+.container-top {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 900px;
+}
+
+.Button-Login {
+  width: 120px;
+  height: 40px;
+  background: #ffcc00;
+  border: 0;
+  border-radius: 3px;
+  justify-content: reverse;
+  color: #190101;
+  font-family: "Sigmar", cursive;
+  font-size: 20px;
+}
+
+.bandeira {
+  width: 50px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links a {
+    font-size: 1.4rem;
+  }
+
+  .link-pedido {
+    font-size: 1.5rem;
+  }
+}
+
+.home {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.lista-produtos {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+.card-produto {
+  flex: 0 0 100px;
+  padding: 40px;
+  background-color:transparent; 
+  border: 2px solid #9a9799;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 2px 2px 6px rgb(245, 244, 244);
+  text-align: center;
+}
+
+
+.card-produto:hover {
+  transform: scale(1.05);
+  background-color: #fdfdfd;
+  border-color: #d10ed1;
+}
+
+.imagem-produto {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+
+.card-produto h3 {
+  font-size: 14px;
+  font-style: oblique;
+  color: #f309b9;
+  margin: 5px 0;
+
+}
+
+.card-produto p {
+  font-size: 17px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #0f0f0f;
+   text-shadow: 3px 3px 5px rgb(246, 241, 246);
+}
+
+
+.card-produto strong {
+  display: block;
+  font-style: oblique;
+  margin-top: 5px;
+  font-size: 15px;
+  color: #fc0606;
+  font-weight: bold;
+   text-shadow: 1px 1px 2px rgb(236, 229, 229);
+}
+
+.home button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #e606cc;
+  color: #e6e1e6;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Sigmar", cursive;
+  transition: 0.3s ease-in-out;
+}
+
+.home button:hover {
+  background-color: #f004c5;
+  transform: scale(1.05);
+}
+
+
+.lista-produtos::-webkit-scrollbar {
+  height: 8px;
+}
+
+.lista-produtos::-webkit-scrollbar-thumb {
+  background: #1448e3;
+  border-radius: 4px;
+}
+
+.lista-produtos::-webkit-scrollbar-track {
+  background: #f4f2f4;
+}
